@@ -1,0 +1,15 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 4rem;
+  background-image: linear-gradient(to left top, #f01, #f0f, #ff0);
+}
+
+.header-menu {
+  flex: 1;
+  min-width: 0;
+}
